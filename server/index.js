@@ -42,8 +42,8 @@ app.use("/api/channel", channelRoutes);
 const connectDB = async () => {
   try {
     await mongoose.connect(databaseURL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true,
       serverSelectionTimeoutMS: 30000, // Increase timeout to 30s
     });
     console.log("✅ MongoDB Connected Successfully");
