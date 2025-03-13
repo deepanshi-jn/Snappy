@@ -1,9 +1,11 @@
 🚀 VocalAI
+
 VocalAI is a real-time messaging application built with React, Node.js, and MongoDB, providing seamless communication with group and personal chats, emoji support, and file handling.
 
 ---------------------------
 
 📌 Features
+
 🔹 Frontend
 Built with React ⚛️
 UI Components: ShadCN 🧩
@@ -27,6 +29,7 @@ Zustand for seamless state management 🧠
 Axios for smooth API interactions 🌐
 🔹 Code Quality
 Structured and Maintainable Code 📚
+
 -----------------------------------------------------------
 🛠️ Installation and Setup
 Clone the Repository:
