@@ -71,6 +71,7 @@ const Auth = () => {
 
 
     return (
+
         <div className="h-screen w-screen flex items-center justify-center bg-indigo-900">
             <div className="h-[80vh] bg-white w-[90vw] md:w-[70vw] xl:w-[55vw] rounded-3xl grid xl:grid-cols-2 
                 shadow-[0px_10px_30px_rgba(0,0,0,0.2)] overflow-hidden">
@@ -88,6 +89,7 @@ const Auth = () => {
                             <TabsTrigger value="login" className="text-gray-800  border-b-2 rounded-none w-full data-[state=active]:text-black data-[state=active]:font-semibold data-[state=active]:border-b-purple-500 p-3 transition-all duration-300">Login</TabsTrigger>
                             <TabsTrigger value="signup" className="text-gray-800  border-b-2 rounded-none w-full data-[state=active]:text-black data-[state=active]:font-semibold data-[state=active]:border-b-purple-500 p-3 transition-all duration-300">Signup</TabsTrigger>
                         </TabsList>
+                        
 
                         {/* Login Form */}
                         <TabsContent className="flex flex-col gap-5 mt-6" value="login">
